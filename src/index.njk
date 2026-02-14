@@ -7,64 +7,174 @@ title: Bluey Episodes
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    h1 {
-      color: #3273dc;
-    }
-    #search {
-      width: 100%;
-      padding: 15px;
-      font-size: 18px;
-      border: 2px solid #3273dc;
-      border-radius: 5px;
-      margin-bottom: 20px;
+    * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
+
+    body {
+      font-family: 'Fredoka', sans-serif;
+      background: linear-gradient(135deg, #a8daff 0%, #e8f4ff 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #3b7dd6;
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.5);
+      animation: bounce-in 0.6s ease-out;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #d97300;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    @keyframes bounce-in {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    #search {
+      width: 100%;
+      padding: 18px 24px;
+      font-size: 1.1rem;
+      font-family: 'Fredoka', sans-serif;
+      border: 4px solid #3b7dd6;
+      border-radius: 50px;
+      margin-bottom: 25px;
+      background: white;
+      box-shadow: 0 4px 15px rgba(59, 125, 214, 0.2);
+      transition: all 0.3s ease;
+    }
+
     #search:focus {
       outline: none;
-      border-color: #2366d1;
-      box-shadow: 0 0 5px rgba(50, 115, 220, 0.5);
+      border-color: #f7931e;
+      box-shadow: 0 6px 20px rgba(247, 147, 30, 0.3);
+      transform: translateY(-2px);
     }
-    .episode {
-      padding: 10px;
-      margin: 5px 0;
-      border-left: 3px solid #3273dc;
-      background-color: #f5f5f5;
-      contain: layout style paint;
+
+    #search::placeholder {
+      color: #7ba3cc;
+      opacity: 1;
     }
-    .episode.hidden {
-      display: none;
-    }
+
     #episodes-list {
       contain: layout;
     }
-    .episode-number {
-      font-weight: bold;
-      color: #363636;
+
+    .episode {
+      padding: 16px 20px;
+      margin: 12px 0;
+      background: white;
+      border-radius: 20px;
+      border-left: 6px solid #3b7dd6;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      contain: layout style paint;
+      transition: all 0.2s ease;
+      animation: slide-in 0.4s ease-out;
     }
+
+    @keyframes slide-in {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .episode.hidden {
+      display: none;
+    }
+
+    .episode-number {
+      display: inline-block;
+      font-weight: 700;
+      color: white;
+      background: linear-gradient(135deg, #2858a8, #3b7dd6);
+      padding: 6px 14px;
+      border-radius: 15px;
+      font-size: 1rem;
+      margin-right: 12px;
+      box-shadow: 0 2px 6px rgba(59, 125, 214, 0.3);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .episode-title {
+      color: #2c5aa0;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
     mark {
-      background-color: #ffeb3b;
-      padding: 2px 0;
+      background: linear-gradient(120deg, #fff176 0%, #ffeb3b 100%);
+      padding: 0px 0px;
+      border-radius: 4px;
+      font-weight: 700;
+      color: #2c5aa0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .episode {
+        padding: 12px 16px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>{{ title }}</h1>
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <p class="subtitle">Bluey Episode Numbers on Disney+ in the US</p>
 
-  <input type="text" id="search" placeholder="Search episodes..." autofocus>
+    <input type="text" id="search" placeholder="Search episodes..." autofocus>
 
-  <div id="episodes-list">
-    {% for episode in episodes %}
-    <div class="episode" data-title="{{ episode.title }}">
-      <span class="episode-number">S{{ episode.season }}E{{ episode.episode }}</span> - <span class="episode-title">{{ episode.title }}</span>
+    <div id="episodes-list">
+      {% for episode in episodes %}
+      <div class="episode" data-title="{{ episode.title }}">
+        <span class="episode-number">S{{ episode.season }}E{{ episode.episode }}</span>
+        <span class="episode-title">{{ episode.title }}</span>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
   <script>
