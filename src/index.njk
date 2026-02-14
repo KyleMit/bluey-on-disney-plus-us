@@ -17,25 +17,83 @@ title: Bluey Episodes
     h1 {
       color: #3273dc;
     }
+    #search {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      border: 2px solid #3273dc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    #search:focus {
+      outline: none;
+      border-color: #2366d1;
+      box-shadow: 0 0 5px rgba(50, 115, 220, 0.5);
+    }
     .episode {
       padding: 10px;
       margin: 5px 0;
       border-left: 3px solid #3273dc;
       background-color: #f5f5f5;
     }
+    .episode.hidden {
+      display: none;
+    }
     .episode-number {
       font-weight: bold;
       color: #363636;
+    }
+    mark {
+      background-color: #ffeb3b;
+      padding: 2px 0;
     }
   </style>
 </head>
 <body>
   <h1>{{ title }}</h1>
 
-  {% for episode in episodes %}
-  <div class="episode">
-    <span class="episode-number">S{{ episode.season }}E{{ episode.episode }}</span> - {{ episode.title }}
+  <input type="text" id="search" placeholder="Search episodes..." autofocus>
+
+  <div id="episodes-list">
+    {% for episode in episodes %}
+    <div class="episode" data-title="{{ episode.title }}">
+      <span class="episode-number">S{{ episode.season }}E{{ episode.episode }}</span> - <span class="episode-title">{{ episode.title }}</span>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
+
+  <script>
+    const searchInput = document.getElementById('search');
+    const episodes = document.querySelectorAll('.episode');
+
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function highlightMatch(text, query) {
+      if (!query) return text;
+      const regex = new RegExp(`(${escapeRegExp(query)})`, 'gi');
+      return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase();
+
+      episodes.forEach(episode => {
+        const title = episode.dataset.title.toLowerCase();
+        const titleElement = episode.querySelector('.episode-title');
+        const originalTitle = episode.dataset.title;
+
+        if (title.includes(query)) {
+          episode.classList.remove('hidden');
+          titleElement.innerHTML = highlightMatch(originalTitle, e.target.value);
+        } else {
+          episode.classList.add('hidden');
+          titleElement.textContent = originalTitle;
+        }
+      });
+    });
+  </script>
 </body>
 </html>
