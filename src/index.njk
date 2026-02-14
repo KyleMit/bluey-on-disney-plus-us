@@ -7,6 +7,7 @@ title: Bluey Episodes
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
@@ -92,6 +93,9 @@ title: Bluey Episodes
     }
 
     .episode {
+      display: flex;
+      align-items: center;
+      gap: 12px;
       padding: 16px 20px;
       margin: 12px 0;
       background: white;
@@ -107,22 +111,24 @@ title: Bluey Episodes
     }
 
     .episode-number {
-      display: inline-block;
+      flex-shrink: 0;
       font-weight: 700;
       color: white;
       background: linear-gradient(135deg, #2858a8, #3b7dd6);
       padding: 6px 14px;
       border-radius: 15px;
       font-size: 1rem;
-      margin-right: 12px;
       box-shadow: 0 2px 6px rgba(59, 125, 214, 0.3);
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      white-space: nowrap;
     }
 
     .episode-title {
+      flex: 1;
       color: #2c5aa0;
       font-weight: 600;
       font-size: 1.1rem;
+      line-height: 1.4;
     }
 
     mark {
