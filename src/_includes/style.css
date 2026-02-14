@@ -59,9 +59,14 @@ h1 {
   backdrop-filter: blur(10px);
 }
 
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
 #search {
   width: 100%;
-  padding: 18px 24px;
+  padding: 18px 60px 18px 24px;
   font-size: 1.1rem;
   font-family: 'Fredoka', sans-serif;
   border: 4px solid #3b7dd6;
@@ -69,6 +74,41 @@ h1 {
   background: white;
   box-shadow: 0 4px 15px rgba(59, 125, 214, 0.2);
   transition: all 0.3s ease;
+}
+
+.clear-btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #e0e0e0;
+  color: #666;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  padding: 0;
+}
+
+.clear-btn.visible {
+  display: flex;
+}
+
+.clear-btn:hover {
+  background: #3b7dd6;
+  color: white;
+}
+
+.clear-btn:active {
+  transform: translateY(-50%) scale(0.9);
 }
 
 #search:focus {

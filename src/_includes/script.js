@@ -1,4 +1,5 @@
 const searchInput = document.getElementById('search');
+const clearBtn = document.getElementById('clear-search');
 const episodes = document.querySelectorAll('.episode');
 
 function escapeRegExp(string) {
@@ -11,11 +12,21 @@ function highlightMatch(text, query) {
   return text.replace(regex, '<mark>$1</mark>');
 }
 
+function updateClearButton() {
+  if (searchInput.value.length > 0) {
+    clearBtn.classList.add('visible');
+  } else {
+    clearBtn.classList.remove('visible');
+  }
+}
+
 // Batch DOM updates using requestAnimationFrame for smoother performance
 let rafId = null;
 
 searchInput.addEventListener('input', (e) => {
   if (rafId) cancelAnimationFrame(rafId);
+
+  updateClearButton();
 
   rafId = requestAnimationFrame(() => {
     const query = e.target.value.toLowerCase();
@@ -33,5 +44,18 @@ searchInput.addEventListener('input', (e) => {
         titleElement.textContent = originalTitle;
       }
     });
+  });
+});
+
+clearBtn.addEventListener('click', () => {
+  searchInput.value = '';
+  updateClearButton();
+  searchInput.focus();
+
+  // Reset all episodes to visible
+  episodes.forEach(episode => {
+    episode.classList.remove('hidden');
+    const titleElement = episode.querySelector('.episode-title');
+    titleElement.textContent = episode.dataset.title;
   });
 });
