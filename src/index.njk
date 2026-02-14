@@ -100,18 +100,6 @@ title: Bluey Episodes
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
       contain: layout style paint;
       transition: all 0.2s ease;
-      animation: slide-in 0.4s ease-out;
-    }
-
-    @keyframes slide-in {
-      from {
-        opacity: 0;
-        transform: translateX(-20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
     }
 
     .episode.hidden {
@@ -170,7 +158,7 @@ title: Bluey Episodes
     <div id="episodes-list">
       {% for episode in episodes %}
       <div class="episode" data-title="{{ episode.title }}">
-        <span class="episode-number">S{{ episode.season }}E{{ episode.episode }}</span>
+        <span class="episode-number">S{{ episode.season }} E{{ episode.episode }}</span>
         <span class="episode-title">{{ episode.title }}</span>
       </div>
       {% endfor %}
