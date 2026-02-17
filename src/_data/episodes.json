@@ -1,155 +1,1073 @@
 [
-  { "season": 1, "episode": 1, "title": "The Magic Xylophone" },
-  { "season": 1, "episode": 2, "title": "Hospital" },
-  { "season": 1, "episode": 3, "title": "Keepy Uppy" },
-  { "season": 1, "episode": 4, "title": "Daddy Robot" },
-  { "season": 1, "episode": 5, "title": "Shadowlands" },
-  { "season": 1, "episode": 6, "title": "The Weekend" },
-  { "season": 1, "episode": 7, "title": "BBQ" },
-  { "season": 1, "episode": 8, "title": "Fruit Bat" },
-  { "season": 1, "episode": 9, "title": "Horsey Ride" },
-  { "season": 1, "episode": 10, "title": "Hotel" },
-  { "season": 1, "episode": 11, "title": "Bike" },
-  { "season": 1, "episode": 12, "title": "Bob Bilby" },
-  { "season": 1, "episode": 13, "title": "Spy Game" },
-  { "season": 1, "episode": 14, "title": "Take Away" },
-  { "season": 1, "episode": 15, "title": "Butterflies" },
-  { "season": 1, "episode": 16, "title": "Yoga Ball" },
-  { "season": 1, "episode": 17, "title": "Calypso" },
-  { "season": 1, "episode": 18, "title": "The Doctor" },
-  { "season": 1, "episode": 19, "title": "The Claw" },
-  { "season": 1, "episode": 20, "title": "Markets" },
-  { "season": 1, "episode": 21, "title": "Blue Mountains" },
-  { "season": 1, "episode": 22, "title": "The Pool" },
-  { "season": 1, "episode": 23, "title": "Shops" },
-  { "season": 1, "episode": 24, "title": "Wagon Ride" },
-  { "season": 1, "episode": 25, "title": "Taxi" },
-  { "season": 1, "episode": 26, "title": "The Beach" },
-  { "season": 1, "episode": 27, "title": "Pirates" },
-  { "season": 1, "episode": 28, "title": "Grannies" },
-  { "season": 1, "episode": 29, "title": "The Creek" },
-  { "season": 1, "episode": 30, "title": "Fairies" },
-  { "season": 1, "episode": 31, "title": "Work" },
-  { "season": 1, "episode": 32, "title": "Bumpy and the Wise Old Wolfhound" },
-  { "season": 1, "episode": 33, "title": "Trampoline" },
-  { "season": 1, "episode": 34, "title": "The Dump" },
-  { "season": 1, "episode": 35, "title": "Zoo" },
-  { "season": 1, "episode": 36, "title": "Backpackers" },
-  { "season": 1, "episode": 37, "title": "The Adventure" },
-  { "season": 1, "episode": 38, "title": "Copycat" },
-  { "season": 1, "episode": 39, "title": "The Sleepover" },
-  { "season": 1, "episode": 40, "title": "Early Baby" },
-  { "season": 1, "episode": 41, "title": "Mums and Dads" },
-  { "season": 1, "episode": 42, "title": "Hide and Seek" },
-  { "season": 1, "episode": 43, "title": "Camping" },
-  { "season": 1, "episode": 44, "title": "Mount Mumandad" },
-  { "season": 1, "episode": 45, "title": "Kids" },
-  { "season": 1, "episode": 46, "title": "Chickenrat" },
-  { "season": 1, "episode": 47, "title": "Neighbours" },
-  { "season": 1, "episode": 48, "title": "Teasing" },
-  { "season": 1, "episode": 49, "title": "Asparagus" },
-  { "season": 1, "episode": 50, "title": "Shaun" },
-  { "season": 1, "episode": 51, "title": "Daddy Putdown" },
-  { "season": 1, "episode": 52, "title": "Verandah Santa" },
-  { "season": 2, "episode": 1, "title": "Hammerbarn" },
-  { "season": 2, "episode": 2, "title": "Featherwand" },
-  { "season": 2, "episode": 3, "title": "Dance Mode" },
-  { "season": 2, "episode": 4, "title": "Squash" },
-  { "season": 2, "episode": 5, "title": "Charades" },
-  { "season": 2, "episode": 6, "title": "Bingo" },
-  { "season": 2, "episode": 7, "title": "Favourite Thing" },
-  { "season": 2, "episode": 8, "title": "Daddy Dropoff" },
-  { "season": 2, "episode": 9, "title": "Sleepytime" },
-  { "season": 2, "episode": 10, "title": "Rug Island" },
-  { "season": 2, "episode": 11, "title": "Hairdressers" },
-  { "season": 2, "episode": 12, "title": "Sticky Gecko" },
-  { "season": 2, "episode": 13, "title": "Army" },
-  { "season": 2, "episode": 14, "title": "Fancy Restaurant" },
-  { "season": 2, "episode": 15, "title": "Stumpfest" },
-  { "season": 2, "episode": 16, "title": "The Show" },
-  { "season": 2, "episode": 17, "title": "Ticklecrabs" },
-  { "season": 2, "episode": 18, "title": "Escape" },
-  { "season": 2, "episode": 19, "title": "Trains" },
-  { "season": 2, "episode": 20, "title": "Queens" },
-  { "season": 2, "episode": 21, "title": "Flat Pack" },
-  { "season": 2, "episode": 22, "title": "Bus" },
-  { "season": 2, "episode": 23, "title": "Mum School" },
-  { "season": 2, "episode": 24, "title": "Piggyback" },
-  { "season": 2, "episode": 25, "title": "Double Babysitter" },
-  { "season": 2, "episode": 26, "title": "Christmas Swim" },
-  { "season": 2, "episode": 27, "title": "See Saw" },
-  { "season": 2, "episode": 28, "title": "Movies" },
-  { "season": 2, "episode": 29, "title": "Grandad" },
-  { "season": 2, "episode": 30, "title": "Library" },
-  { "season": 2, "episode": 31, "title": "Swim School" },
-  { "season": 2, "episode": 32, "title": "Bin Night" },
-  { "season": 2, "episode": 33, "title": "Ice Cream" },
-  { "season": 2, "episode": 34, "title": "Bad Mood" },
-  { "season": 2, "episode": 35, "title": "The Quiet Game" },
-  { "season": 2, "episode": 36, "title": "Postman" },
-  { "season": 2, "episode": 37, "title": "Cafe" },
-  { "season": 2, "episode": 38, "title": "Barky Boats" },
-  { "season": 2, "episode": 39, "title": "Muffin Cone" },
-  { "season": 2, "episode": 40, "title": "Circus" },
-  { "season": 2, "episode": 41, "title": "Road Trip" },
-  { "season": 2, "episode": 42, "title": "Dunny" },
-  { "season": 2, "episode": 43, "title": "Duck Cake" },
-  { "season": 2, "episode": 44, "title": "Handstand" },
-  { "season": 2, "episode": 45, "title": "Helicopter" },
-  { "season": 2, "episode": 46, "title": "Octopus" },
-  { "season": 2, "episode": 47, "title": "Baby Race" },
-  { "season": 2, "episode": 48, "title": "Mr. Monkeyjocks" },
-  { "season": 2, "episode": 49, "title": "Typewriter" },
-  { "season": 2, "episode": 50, "title": "Burger Shop" },
-  { "season": 2, "episode": 51, "title": "Easter" },
-  { "season": 3, "episode": 1, "title": "Bedroom" },
-  { "season": 3, "episode": 2, "title": "Obstacle Course" },
-  { "season": 3, "episode": 3, "title": "Promises" },
-  { "season": 3, "episode": 4, "title": "Omelette" },
-  { "season": 3, "episode": 5, "title": "Born Yesterday" },
-  { "season": 3, "episode": 6, "title": "Mini Bluey" },
-  { "season": 3, "episode": 7, "title": "Unicorse" },
-  { "season": 3, "episode": 8, "title": "Curry Quest" },
-  { "season": 3, "episode": 9, "title": "Magic" },
-  { "season": 3, "episode": 10, "title": "Chest" },
-  { "season": 3, "episode": 11, "title": "Sheepdog" },
-  { "season": 3, "episode": 12, "title": "Housework" },
-  { "season": 3, "episode": 13, "title": "Pass the Parcel" },
-  { "season": 3, "episode": 14, "title": "Perfect" },
-  { "season": 3, "episode": 15, "title": "Explorers" },
-  { "season": 3, "episode": 16, "title": "Phones" },
-  { "season": 3, "episode": 17, "title": "Pavlova" },
-  { "season": 3, "episode": 18, "title": "Rain" },
-  { "season": 3, "episode": 19, "title": "Pizza Girls" },
-  { "season": 3, "episode": 20, "title": "Driving" },
-  { "season": 3, "episode": 21, "title": "Tina" },
-  { "season": 3, "episode": 22, "title": "Whale Watching" },
-  { "season": 3, "episode": 23, "title": "Faceytalk" },
-  { "season": 3, "episode": 24, "title": "Ragdoll" },
-  { "season": 3, "episode": 25, "title": "Fairytale" },
-  { "season": 3, "episode": 26, "title": "Smoochy Kiss" },
-  { "season": 3, "episode": 27, "title": "Family Meeting" },
-  { "season": 3, "episode": 28, "title": "Musical Statues" },
-  { "season": 3, "episode": 29, "title": "Stories" },
-  { "season": 3, "episode": 30, "title": "Puppets" },
-  { "season": 3, "episode": 31, "title": "Turtleboy" },
-  { "season": 3, "episode": 32, "title": "Onesies" },
-  { "season": 3, "episode": 33, "title": "Tradies" },
-  { "season": 3, "episode": 34, "title": "Granny Mobile" },
-  { "season": 3, "episode": 35, "title": "Space" },
-  { "season": 3, "episode": 36, "title": "Dirt" },
-  { "season": 3, "episode": 37, "title": "The Decider" },
-  { "season": 3, "episode": 38, "title": "Cubby" },
-  { "season": 3, "episode": 39, "title": "Exercise" },
-  { "season": 3, "episode": 40, "title": "Relax" },
-  { "season": 3, "episode": 41, "title": "Stickbird" },
-  { "season": 3, "episode": 42, "title": "Show and Tell" },
-  { "season": 3, "episode": 43, "title": "Dragon" },
-  { "season": 3, "episode": 44, "title": "Wild Girls" },
-  { "season": 3, "episode": 45, "title": "TV Shop" },
-  { "season": 3, "episode": 46, "title": "Slide" },
-  { "season": 3, "episode": 47, "title": "Cricket" },
-  { "season": 3, "episode": 48, "title": "Ghostbasket" },
-  { "season": 3, "episode": 49, "title": "The Sign" },
-  { "season": 3, "episode": 50, "title": "Surprise" }
+     {
+        "season": 1,
+        "episode": 1,
+        "title": "The Magic Xylophone",
+        "description": "Bluey and Bingo squabble over sharing their magic xylophone, until Dad turns the tables.",
+        "disneyPlusId": "5f37b14c-483e-4322-8247-ca11ceb92415"
+    },
+    {
+        "season": 1,
+        "episode": 2,
+        "title": "Hospital",
+        "description": "Doctor Bluey diagnoses a cat in Dad’s tummy leaving no choice but to operate.",
+        "disneyPlusId": "152269c3-1041-4e32-a672-578ec0183bfc"
+    },
+    {
+        "season": 1,
+        "episode": 3,
+        "title": "Keepy Uppy",
+        "description": "A game of Keepy-Uppy with Bluey’s last balloon becomes the ultimate test when Dad joins in.",
+        "disneyPlusId": "2b62454f-03cb-46ad-8243-94a043df9cb2"
+    },
+    {
+        "season": 1,
+        "episode": 4,
+        "title": "Daddy Robot",
+        "description": "Daddy Robot helps Bluey and Bingo tidy up the playroom, but the results are disastrous!",
+        "disneyPlusId": "bce1d007-260d-4411-8b5d-d8704287ca4b"
+    },
+    {
+        "season": 1,
+        "episode": 5,
+        "title": "Shadowlands",
+        "description": "When Bluey and friends play Shadowlands, Coco learns that rules can make games more fun.",
+        "disneyPlusId": "1732f72f-d5e8-4627-964f-72a7dd677d1a"
+    },
+    {
+        "season": 1,
+        "episode": 6,
+        "title": "The Weekend",
+        "description": "Bingo’s upset when Dad fails to come and see a walking leaf bug she’s found in the garden.",
+        "disneyPlusId": "98a3744c-12d7-4989-8b13-c803b7048553"
+    },
+    {
+        "season": 1,
+        "episode": 7,
+        "title": "BBQ",
+        "description": "It’s BBQ time! But Bingo can’t put her feet up until she’s made the world’s best salad!",
+        "disneyPlusId": "117c0f9d-3145-487d-b29b-52fab3f15f19"
+    },
+    {
+        "season": 1,
+        "episode": 8,
+        "title": "Fruit Bat",
+        "description": "Not allowed to stay up late, Bluey dreams about being a nocturnal fruit bat instead.",
+        "disneyPlusId": "4b25ae7f-48e2-4171-ae3c-6e5f7ecaf04d"
+    },
+    {
+        "season": 1,
+        "episode": 9,
+        "title": "Horsey Ride",
+        "description": "Bluey, Bingo and their cousins make Dad and Uncle Stripe play a game of Horsey Ride.",
+        "disneyPlusId": "4291b980-2213-4b71-9c49-e55546625908"
+    },
+    {
+        "season": 1,
+        "episode": 10,
+        "title": "Hotel",
+        "description": "Bluey and Bingo run a crazy hotel with Dad as the beleaguered guest in the game of ‘Hotel’.",
+        "disneyPlusId": "bb4cbe35-9ea3-4ca5-9c3f-9fe818e9963e"
+    },
+    {
+        "season": 1,
+        "episode": 11,
+        "title": "Bike",
+        "description": "Bluey’s struggling to ride her bike. But inspired by her friends, she refuses to give up.",
+        "disneyPlusId": "5d49c543-c5ed-454a-a98f-a4815da06ea2"
+    },
+    {
+        "season": 1,
+        "episode": 12,
+        "title": "Bob Bilby",
+        "description": "It’s Bingo’s turn with Kindy’s Bob Bilby puppet and she’s going to show him a good time!",
+        "disneyPlusId": "4b15085a-a8f3-4430-9114-44f9aa4f234c"
+    },
+    {
+        "season": 1,
+        "episode": 13,
+        "title": "Spy Game",
+        "description": "A game in the park goes haywire when Bingo stops playing. Now Bluey must win her back.",
+        "disneyPlusId": "70c3b88c-0543-48fa-88ee-2bce3ca1123c"
+    },
+    {
+        "season": 1,
+        "episode": 14,
+        "title": "Take Away",
+        "description": "Five minutes feels like an eternity as Dad and the kids wait for their takeaway order.",
+        "disneyPlusId": "97d2b6a3-a4ae-4023-89a6-65e96716e165"
+    },
+    {
+        "season": 1,
+        "episode": 15,
+        "title": "Butterflies",
+        "description": "Butterflies is a fun new game, until Bluey runs away with Judo, leaving Bingo all alone.",
+        "disneyPlusId": "ffc678a2-1f6b-4022-abf8-68185c535db0"
+    },
+    {
+        "season": 1,
+        "episode": 16,
+        "title": "Yoga Ball",
+        "description": "When horsing around with Dad goes too far, Bingo learns about finding her big girl voice.",
+        "disneyPlusId": "d6cbdf30-a569-47ad-bd5e-d33dc6b88189"
+    },
+    {
+        "season": 1,
+        "episode": 17,
+        "title": "Calypso",
+        "description": "Teacher Calypso keeps her charges on track with a wise word and a song… all except Pretzel.",
+        "disneyPlusId": "98a6c04b-05dd-49b4-92a8-9baa80007c8f"
+    },
+    {
+        "season": 1,
+        "episode": 18,
+        "title": "The Doctor",
+        "description": "Honey’s trip to see Dr. Bingo keeps getting interrupted by other, more exciting patients.",
+        "disneyPlusId": "c0212f23-d9d4-437b-b73d-b250aaf91b6b"
+    },
+    {
+        "season": 1,
+        "episode": 19,
+        "title": "The Claw",
+        "description": "Mum and Dad create their own Magic Claw machine at home, but can Bluey win the big prize?",
+        "disneyPlusId": "2126c6b5-bc72-4152-9f30-433121ce8032"
+    },
+    {
+        "season": 1,
+        "episode": 20,
+        "title": "Markets",
+        "description": "With five bucks from the tooth fairy, Bluey is overwhelmed with possibilities at the markets.",
+        "disneyPlusId": "7f5c6787-cd25-4a74-bcc4-7132160f6cf3"
+    },
+    {
+        "season": 1,
+        "episode": 21,
+        "title": "Blue Mountains",
+        "description": "In the park, the Heeler family play a game of hand puppets and go on an epic adventure.",
+        "disneyPlusId": "2976d349-8e9a-4ace-9499-7113173357af"
+    },
+    {
+        "season": 1,
+        "episode": 22,
+        "title": "The Pool",
+        "description": "Bluey and Dad miss Mum being over-prepared, when they go swimming and forget everything!",
+        "disneyPlusId": "12a3d705-5ccf-4927-88da-f21f16a33d18"
+    },
+    {
+        "season": 1,
+        "episode": 23,
+        "title": "Shops",
+        "description": "A game of shops with Bluey and her friends can’t start until they decide on the rules.",
+        "disneyPlusId": "4313dbdb-7355-4d85-8c0b-5674a78280fa"
+    },
+    {
+        "season": 1,
+        "episode": 24,
+        "title": "Wagon Ride",
+        "description": "Bluey loses patience when Dad keeps stopping to chat with grown-ups on the way to the park.",
+        "disneyPlusId": "2dd80d95-ff33-4ca9-94cc-b17075043455"
+    },
+    {
+        "season": 1,
+        "episode": 25,
+        "title": "Taxi",
+        "description": "With Bluey as his taxi driver, Dad’s got no chance of making it the airport on time!",
+        "disneyPlusId": "fe8691ec-825d-4b62-9f9d-4a2ec09f44fb"
+    },
+    {
+        "season": 1,
+        "episode": 26,
+        "title": "The Beach",
+        "description": "When Mum takes a walk along the beach, Bluey follows behind on her first solo adventure.",
+        "disneyPlusId": "739bf941-b597-41d2-834c-5024029273fc"
+    },
+    {
+        "season": 1,
+        "episode": 27,
+        "title": "Pirates",
+        "description": "It’s adventure on the high seas as Bluey and Bingo play Pirates on the hammock swing.",
+        "disneyPlusId": "cfb06d31-a80f-4620-9bc8-5ffec2dec634"
+    },
+    {
+        "season": 1,
+        "episode": 28,
+        "title": "Grannies",
+        "description": "Bingo and Bluey can’t agree on one simple question: Can Grannies do the floss dance?",
+        "disneyPlusId": "57556e87-dc60-40f2-a4a7-b245eae3925f"
+    },
+    {
+        "season": 1,
+        "episode": 29,
+        "title": "The Creek",
+        "description": "A trip to the local creek opens Bluey’s eyes to the simple beauty of nature.",
+        "disneyPlusId": "d8b52225-50b1-4c6d-afd4-bdb78ac205fe"
+    },
+    {
+        "season": 1,
+        "episode": 30,
+        "title": "Fairies",
+        "description": "Bluey has to appease invisible mischief-making fairies, who have infested the house.",
+        "disneyPlusId": "8d90d671-39a5-4ce6-a112-81de746925f7"
+    },
+    {
+        "season": 1,
+        "episode": 31,
+        "title": "Work",
+        "description": "In a game of ‘Work’, Bluey and Bingo are the latest hires at Dad’s drainpipe factory.",
+        "disneyPlusId": "f0ce4741-0c39-4532-824f-6b8e38901845"
+    },
+    {
+        "season": 1,
+        "episode": 32,
+        "title": "Bumpy and the Wise Old Wolfhound",
+        "description": "Bluey sends a video to Bingo in hospital to show her that everyone gets sick sometimes.",
+        "disneyPlusId": "23cfb023-f1fa-4d7c-94e2-38445096df27"
+    },
+    {
+        "season": 1,
+        "episode": 33,
+        "title": "Trampoline",
+        "description": "Dad can’t go to work until he has played all of Bluey and Bingo’s trampoline games.",
+        "disneyPlusId": "23afef27-a344-45d5-9a47-8c8bbbd8bfba"
+    },
+    {
+        "season": 1,
+        "episode": 34,
+        "title": "The Dump",
+        "description": "On a car trip to the dump, Bluey discovers that Dad is throwing out her old drawings.",
+        "disneyPlusId": "e6a5fbb0-7b32-4430-82af-cf9c7f9a9746"
+    },
+    {
+        "season": 1,
+        "episode": 35,
+        "title": "Zoo",
+        "description": "Bingo causes chaos at Bluey’s backyard zoo, when she sneaks into Daddy Gorilla’s cage.",
+        "disneyPlusId": "4012a495-8f44-4a58-9c33-04e21e05b7a9"
+    },
+    {
+        "season": 1,
+        "episode": 36,
+        "title": "Backpackers",
+        "description": "Mum and Dad are going on an adventure with Bluey and Bingo as their backpacks!",
+        "disneyPlusId": "3d98a206-aed0-40fb-a6af-5b825b1699ac"
+    },
+    {
+        "season": 1,
+        "episode": 37,
+        "title": "The Adventure",
+        "description": "Bluey and Chloe embark on a quest to save their playground kingdom from the Greedy Queen.",
+        "disneyPlusId": "96546ebf-c0ab-41f2-8cfd-49f2753b60ff"
+    },
+    {
+        "season": 1,
+        "episode": 38,
+        "title": "Copycat",
+        "description": "Bluey’s having fun copying Dad, but her game takes a turn when Bluey finds a hurt budgie.",
+        "disneyPlusId": "69223969-6a8d-4fed-84fc-ca1c5ba77833"
+    },
+    {
+        "season": 1,
+        "episode": 39,
+        "title": "The Sleepover",
+        "description": "Bluey and Bingo’s plans to stay up late are derailed when Muffin misses her nap.",
+        "disneyPlusId": "a1e922fc-41ac-40e5-92d5-2bf35b0b3d39"
+    },
+    {
+        "season": 1,
+        "episode": 40,
+        "title": "Early Baby",
+        "description": "Calypso guides the playgroup through a disagreement after Rusty interrupts Bluey’s game.",
+        "disneyPlusId": "61fbf088-c8a6-46f2-8adf-ed1cf84eae83"
+    },
+    {
+        "season": 1,
+        "episode": 41,
+        "title": "Mums and Dads",
+        "description": "When Indy and Rusty play a game of Mums and Dads, they can’t agree on who goes to work.",
+        "disneyPlusId": "fd6434f7-7fb1-4005-aa28-a97a0eb89e00"
+    },
+    {
+        "season": 1,
+        "episode": 42,
+        "title": "Hide and Seek",
+        "description": "Bluey needs to stay focused and not get distracted, during a family game of hide and seek.",
+        "disneyPlusId": "6aae35ef-c270-4506-ba2a-ea397ada87e5"
+    },
+    {
+        "season": 1,
+        "episode": 43,
+        "title": "Camping",
+        "description": "While camping in the bush, Bluey makes a new friend who doesn't speak the same language.",
+        "disneyPlusId": "657573ca-f7b2-4626-8459-3ab53bd04338"
+    },
+    {
+        "season": 1,
+        "episode": 44,
+        "title": "Mount Mumandad",
+        "description": "Bluey and Bingo have to work as a team when they race to the summit of Mt MumandDad.",
+        "disneyPlusId": "a3efa56c-5054-437c-9584-59e364b79bd1"
+    },
+    {
+        "season": 1,
+        "episode": 45,
+        "title": "Kids",
+        "description": "A quick trip to the shops proves tricky for Dad, when Bluey decides she’s going to be Mum.",
+        "disneyPlusId": "c7444aac-6621-4d59-8479-3b80b6056167"
+    },
+    {
+        "season": 1,
+        "episode": 46,
+        "title": "Chickenrat",
+        "description": "When Bingo's favourite toy goes missing, the girls must retrace their steps to find it.",
+        "disneyPlusId": "9b6f1309-de75-41c6-858b-5cf66f0a91b3"
+    },
+    {
+        "season": 1,
+        "episode": 47,
+        "title": "Neighbours",
+        "description": "Bluey needs Mums advice when her couch-cushion playhouse has noisy neighbours.",
+        "disneyPlusId": "77df344a-1726-44f3-8b2c-77e15e048290"
+    },
+    {
+        "season": 1,
+        "episode": 48,
+        "title": "Teasing",
+        "description": "Bluey, Bingo and Mum get into a heated debate with Dad about whether he is a “Big Teaser”.",
+        "disneyPlusId": "9541f92f-a01a-4aa2-bec1-19ccc82e4ac3"
+    },
+    {
+        "season": 1,
+        "episode": 49,
+        "title": "Asparagus",
+        "description": "Bluey’s magic asparagus turns her family into wild animals with no manners.",
+        "disneyPlusId": "5d89dcfb-13f7-45c5-b44e-3020308d8b79"
+    },
+    {
+        "season": 1,
+        "episode": 50,
+        "title": "Shaun",
+        "description": "Bluey struggles to train her new pet Shaun, an unruly and troublesome emu.",
+        "disneyPlusId": "cd07dde6-f8c1-4a4b-8b5d-336c2495ed6e"
+    },
+    {
+        "season": 1,
+        "episode": 51,
+        "title": "Daddy Putdown",
+        "description": "Bluey misses Mum when she goes out for the night and leaves Dad in charge.",
+        "disneyPlusId": "1ecd4e50-29b4-4b11-bfff-4858afc9adc8"
+    },
+    {
+        "season": 1,
+        "episode": 52,
+        "title": "Verandah Santa",
+        "description": "It’s Christmas Eve in Bluey’s house –the perfect time for a game of Verandah Santa!",
+        "disneyPlusId": "133b4d69-2863-4713-a6a4-62012caf4759"
+    },
+{
+        "season": 2,
+        "episode": 1,
+        "title": "Hammerbarn",
+        "description": "The Heeler family heads to Hammerbarn to buy an oven!",
+        "disneyPlusId": "1bf55d76-8858-4286-83ac-2c214854d665"
+    },
+    {
+        "season": 2,
+        "episode": 2,
+        "title": "Featherwand",
+        "description": "Bingo makes everything heavy with a swish of her wand.",
+        "disneyPlusId": "5ca73dad-412e-4529-97bb-b98160db0c4a"
+    },
+    {
+        "season": 2,
+        "episode": 3,
+        "title": "Dance Mode",
+        "description": "Bingo uses her 'dance mode' wishes on her dad!",
+        "disneyPlusId": "ad129c5a-e8a1-4451-b3c8-b324c2c0a1ff"
+    },
+    {
+        "season": 2,
+        "episode": 4,
+        "title": "Squash",
+        "description": "Uncle Stripe, Bandit, Bluey and Bingo play squash!",
+        "disneyPlusId": "161b0406-b421-42af-98f8-4dc97e642606"
+    },
+    {
+        "season": 2,
+        "episode": 5,
+        "title": "Charades",
+        "description": "Bluey and Bingo spend the day at Nana's!",
+        "disneyPlusId": "a4402000-1fb5-41b2-8464-f2cfd0982d07"
+    },
+    {
+        "season": 2,
+        "episode": 6,
+        "title": "Bingo",
+        "description": "Bingo has to make her own fun!",
+        "disneyPlusId": "44872604-0065-4847-9181-e09ba833e81a"
+    },
+    {
+        "season": 2,
+        "episode": 7,
+        "title": "Favourite Thing",
+        "description": "The Heelers remember their favourite things!",
+        "disneyPlusId": "16edef65-4e62-402d-a4be-5d2a4b6522c8"
+    },
+    {
+        "season": 2,
+        "episode": 8,
+        "title": "Daddy Dropoff",
+        "description": "It's Dad's turn to drop the kids off at school.",
+        "disneyPlusId": "35476401-1a08-4793-87b3-31128ad5a1a6"
+    },
+    {
+        "season": 2,
+        "episode": 9,
+        "title": "Sleepytime",
+        "description": "Bingo promises to wake up in her own bed!",
+        "disneyPlusId": "3a238044-ccce-4b4d-bc5f-821c576c8b06"
+    },
+    {
+        "season": 2,
+        "episode": 10,
+        "title": "Rug Island",
+        "description": "Dad washes up on the beach of a desert island!",
+        "disneyPlusId": "38e000b5-a54a-425a-95cc-813b63787c1e"
+    },
+    {
+        "season": 2,
+        "episode": 11,
+        "title": "Hairdressers",
+        "description": "Bert Handsome has nits!",
+        "disneyPlusId": "7a847280-6396-43ec-8cbd-54ffe780ade8"
+    },
+    {
+        "season": 2,
+        "episode": 12,
+        "title": "Sticky Gecko",
+        "description": "Bluey and Bingo wait for the sticky rubber gecko.",
+        "disneyPlusId": "5fca1570-9131-4aed-955f-324777b9a7e7"
+    },
+    {
+        "season": 2,
+        "episode": 13,
+        "title": "Army",
+        "description": "Jack and Rusty play Army at school.",
+        "disneyPlusId": "fc8ae832-a629-457b-adb4-bc544d2aa1db"
+    },
+    {
+        "season": 2,
+        "episode": 14,
+        "title": "Fancy Restaurant",
+        "description": "The girls set up a fancy restaurant for Mum and Dad!",
+        "disneyPlusId": "2949f00f-54b5-4af2-9d96-92d951674775"
+    },
+    {
+        "season": 2,
+        "episode": 15,
+        "title": "Stumpfest",
+        "description": "Bluey, Bingo and Muffin strike a deal with the dads!",
+        "disneyPlusId": "ba81beb8-c948-4944-8c87-4a970f0541a1"
+    },
+    {
+        "season": 2,
+        "episode": 16,
+        "title": "The Show",
+        "description": "Bingo and Bluey put on a Mother's Day show!",
+        "disneyPlusId": "48e8d941-fe66-4387-8216-cf816c859728"
+    },
+    {
+        "season": 2,
+        "episode": 17,
+        "title": "Ticklecrabs",
+        "description": "The kids play Tickle Crabs with Dad!",
+        "disneyPlusId": "38eca938-ef64-4567-a6cf-dc5914c1c9b7"
+    },
+    {
+        "season": 2,
+        "episode": 18,
+        "title": "Escape",
+        "description": "Bluey and Bingo get dropped off at Nana's.",
+        "disneyPlusId": "72c677df-a3c4-4d5d-9dba-58b53fabe6db"
+    },
+    {
+        "season": 2,
+        "episode": 19,
+        "title": "Trains",
+        "description": "Bluey and Bingo commute on the Dad-Train.",
+        "disneyPlusId": "1cf07e3f-13f0-44fa-8ad3-8f3823017dc4"
+    },
+    {
+        "season": 2,
+        "episode": 20,
+        "title": "Queens",
+        "description": "Mum is crowned Queen with the girls as her butlers.",
+        "disneyPlusId": "4a5d8de5-0e88-4591-bcbe-6082d2786ab0"
+    },
+    {
+        "season": 2,
+        "episode": 21,
+        "title": "Flat Pack",
+        "description": "Bluey and Bingo construct a mini-civilization.",
+        "disneyPlusId": "e0949b3e-dd4c-4024-960a-3d03c9d94f14"
+    },
+    {
+        "season": 2,
+        "episode": 22,
+        "title": "Bus",
+        "description": "Grannies on the bus!",
+        "disneyPlusId": "1db8516f-d9a0-40b7-a241-d35e7328295d"
+    },
+    {
+        "season": 2,
+        "episode": 23,
+        "title": "Mum School",
+        "description": "Mum teaches Bluey how to corral her rowdy 'kids'.",
+        "disneyPlusId": "a3015ab7-7210-4208-b660-9e9f6b8bb246"
+    },
+    {
+        "season": 2,
+        "episode": 24,
+        "title": "Piggyback",
+        "description": "Bingo needs a piggyback when she's too tired to walk.",
+        "disneyPlusId": "17d8520e-f2ff-41ff-804f-6ef9ee79577c"
+    },
+    {
+        "season": 2,
+        "episode": 25,
+        "title": "Double Babysitter",
+        "description": "Two babysitters turn up to look after Bluey and Bingo!",
+        "disneyPlusId": "7dc72ed9-49e8-40a7-8c75-96fe02389cf1"
+    },
+    {
+        "season": 2,
+        "episode": 26,
+        "title": "Christmas Swim",
+        "description": "Bluey gets a new teddy for Christmas.",
+        "disneyPlusId": "3d8590c0-a0d1-4993-b1ec-e468615233f7"
+    },
+    {
+        "season": 2,
+        "episode": 27,
+        "title": "See Saw",
+        "description": "Dad has plonked himself on one end of the seesaw.",
+        "disneyPlusId": "7fc7ab55-d359-4b17-b1dd-21825435f3f1"
+    },
+    {
+        "season": 2,
+        "episode": 28,
+        "title": "Movies",
+        "description": "It's Bluey's first trip to the cinema!",
+        "disneyPlusId": "121304a7-4bf9-48fd-9ceb-1b35f3f409c3"
+    },
+    {
+        "season": 2,
+        "episode": 29,
+        "title": "Grandad",
+        "description": "Bluey and Bingo go on an adventure with Grandad!",
+        "disneyPlusId": "c18db19b-3d68-4917-b319-5a8b768f276f"
+    },
+    {
+        "season": 2,
+        "episode": 30,
+        "title": "Library",
+        "description": "Muffin plays the game of library her way.",
+        "disneyPlusId": "88e66828-c3a9-4d1f-b11d-1968e3b697a8"
+    },
+    {
+        "season": 2,
+        "episode": 31,
+        "title": "Swim School",
+        "description": "Mum, Dad and Bingo must pass Swim School.",
+        "disneyPlusId": "e9142a5d-1453-401b-9c82-8c27c2679dd5"
+    },
+    {
+        "season": 2,
+        "episode": 32,
+        "title": "Bin Night",
+        "description": "Bluey, Bingo and Dad always take out the bins.",
+        "disneyPlusId": "244ab690-947a-41a5-8f64-0798c196ce9e"
+    },
+    {
+        "season": 2,
+        "episode": 33,
+        "title": "Ice Cream",
+        "description": "Bluey and Bingo want a lick of each other's ice cream.",
+        "disneyPlusId": "6ecf482f-43cb-4b3d-93ea-49dbcddca7e5"
+    },
+    {
+        "season": 2,
+        "episode": 34,
+        "title": "Bad Mood",
+        "description": "Bingo is playing Bad Mood with Dad.",
+        "disneyPlusId": "a8c5e354-4457-4d10-9391-ba0aec3e5bff"
+    },
+    {
+        "season": 2,
+        "episode": 35,
+        "title": "The Quiet Game",
+        "description": "Bluey and Bingo play The Quiet Game.",
+        "disneyPlusId": "6712cf19-3c1e-4a66-a3f8-e0aab572281a"
+    },
+    {
+        "season": 2,
+        "episode": 36,
+        "title": "Postman",
+        "description": "When Mum and Dad have a disagreement, Bluey makes Dad write a love letter to Mum.",
+        "disneyPlusId": "53a18e3c-019b-43d8-84e8-71c1c753f862"
+    },
+    {
+        "season": 2,
+        "episode": 37,
+        "title": "Cafe",
+        "description": "In the park, Bluey meets a new playmate, Winnie.",
+        "disneyPlusId": "62557174-3562-43bf-b685-211c47afc719"
+    },
+    {
+        "season": 2,
+        "episode": 38,
+        "title": "Barky Boats",
+        "description": "Bluey and Mackenzie play with two older friends.",
+        "disneyPlusId": "afb74111-45cb-456d-bc4c-ac26131820d0"
+    },
+    {
+        "season": 2,
+        "episode": 39,
+        "title": "Muffin Cone",
+        "description": "Muffin has to wear a cone of shame!",
+        "disneyPlusId": "91a74c62-abaf-42f5-a61c-c1ed097258ea"
+    },
+    {
+        "season": 2,
+        "episode": 40,
+        "title": "Circus",
+        "description": "Bluey is the ringmaster in a game of circus!",
+        "disneyPlusId": "48f00491-1677-45c2-8061-a6ed6726e4cd"
+    },
+    {
+        "season": 2,
+        "episode": 41,
+        "title": "Road Trip",
+        "description": "The Heelers go on a road trip!",
+        "disneyPlusId": "89ea5952-21c9-4547-b386-d620239aa136"
+    },
+    {
+        "season": 2,
+        "episode": 42,
+        "title": "Dunny",
+        "description": "Mum bans the girls from saying the word 'dunny.'",
+        "disneyPlusId": "61361ea8-550d-4bcd-8c66-407ccc1f9b84"
+    },
+    {
+        "season": 2,
+        "episode": 43,
+        "title": "Duck Cake",
+        "description": "Bluey wants to help Dad make Bingo's birthday cake.",
+        "disneyPlusId": "0013b22c-e048-452b-ae76-39c1fd086f45"
+    },
+    {
+        "season": 2,
+        "episode": 44,
+        "title": "Handstand",
+        "description": "Bingo is desperate to show off her handstand skills.",
+        "disneyPlusId": "ad08637d-d8a8-4b51-93c3-5900d0153ebe"
+    },
+    {
+        "season": 2,
+        "episode": 45,
+        "title": "Helicopter",
+        "description": "Bluey turns a tree stump into a game of Helicopter.",
+        "disneyPlusId": "af35405f-394e-4ee1-bb95-1094fb28375a"
+    },
+    {
+        "season": 2,
+        "episode": 46,
+        "title": "Octopus",
+        "description": "Chloe tries to teach her dad to play Bluey's game.",
+        "disneyPlusId": "75325ba9-aaaf-4de0-a894-579f41517543"
+    },
+    {
+        "season": 2,
+        "episode": 47,
+        "title": "Baby Race",
+        "description": "Mum reminisces about Bluey and Judo as babies.",
+        "disneyPlusId": "2e94b7a1-f444-4d29-b798-81cf4da5a82a"
+    },
+    {
+        "season": 2,
+        "episode": 48,
+        "title": "Mr. Monkeyjocks",
+        "description": "Dad thinks Bluey and Bingo have too many toys!",
+        "disneyPlusId": "118468e3-71c6-4102-a625-a18f53a52b93"
+    },
+    {
+        "season": 2,
+        "episode": 49,
+        "title": "Typewriter",
+        "description": "Bluey and friends get ambushed by the Terriers!",
+        "disneyPlusId": "b8054602-5505-4bfe-b62d-458018d7bee3"
+    },
+    {
+        "season": 2,
+        "episode": 50,
+        "title": "Burger Shop",
+        "description": "Bluey and Bingo play a game of Burger Shop with Dad.",
+        "disneyPlusId": "f2374893-d6e7-4f88-a4b1-312d2d257ced"
+    },
+    {
+        "season": 2,
+        "episode": 51,
+        "title": "Easter",
+        "description": "Bluey and Bingo go on an Easter egg treasure hunt!",
+        "disneyPlusId": "3c7d4077-3f03-4029-9c6c-e73a63a775d1"
+    },
+    {
+        "season": 3,
+        "episode": 1,
+        "title": "Bedroom",
+        "description": "Bluey gets her own room.",
+        "disneyPlusId": "da6f7299-2192-4a70-ae8e-261ab6ca158f"
+    },
+    {
+        "season": 3,
+        "episode": 2,
+        "title": "Obstacle Course",
+        "description": "Mum sets up a backyard obstacle course just for fun.",
+        "disneyPlusId": "9f281efa-70e8-47dd-862c-2fc1e9c7c3b6"
+    },
+    {
+        "season": 3,
+        "episode": 3,
+        "title": "Promises",
+        "description": "Bluey keeps breaking her promises!",
+        "disneyPlusId": "f828cc4a-f6a3-403b-b635-acd614a2b917"
+    },
+    {
+        "season": 3,
+        "episode": 4,
+        "title": "Omelette",
+        "description": "Bingo helps Mum make an omelette.",
+        "disneyPlusId": "33db52e1-f428-4d5b-8050-93364fc6c27c"
+    },
+    {
+        "season": 3,
+        "episode": 5,
+        "title": "Born Yesterday",
+        "description": "Dad pretends he was born yesterday.",
+        "disneyPlusId": "8b974574-7327-435e-b308-163fa3d16663"
+    },
+    {
+        "season": 3,
+        "episode": 6,
+        "title": "Mini Bluey",
+        "description": "Bluey teaches Bingo to be more like her.",
+        "disneyPlusId": "149d0b0c-dfaf-47b5-9c97-bf897fda3472"
+    },
+    {
+        "season": 3,
+        "episode": 7,
+        "title": "Unicorse",
+        "description": "Bluey can’t get to sleep, so Mum reads her a story.",
+        "disneyPlusId": "70475b51-b78d-42a8-aa17-de2e92cb5503"
+    },
+    {
+        "season": 3,
+        "episode": 8,
+        "title": "Curry Quest",
+        "description": "Bingo and Dad brave a magpie protecting its nest.",
+        "disneyPlusId": "25136b6c-1a29-4770-b752-012f19d228e9"
+    },
+    {
+        "season": 3,
+        "episode": 9,
+        "title": "Magic",
+        "description": "Bluey teaches Bingo how to use magic.",
+        "disneyPlusId": "339f5102-3b3e-4a2c-8f75-16673313e596"
+    },
+    {
+        "season": 3,
+        "episode": 10,
+        "title": "Chest",
+        "description": "Dad tries to teach Bluey how to play chess.",
+        "disneyPlusId": "4e3c067d-077c-4754-8122-7b9ef4e2e8f0"
+    },
+    {
+        "season": 3,
+        "episode": 11,
+        "title": "Sheepdog",
+        "description": "Dad, Bluey and Bingo play Sheepdog.",
+        "disneyPlusId": "6b9bb401-4888-4372-8af1-26a85dc35c63"
+    },
+    {
+        "season": 3,
+        "episode": 12,
+        "title": "Housework",
+        "description": "Mum and Dad need to finish their housework.",
+        "disneyPlusId": "a64bb6d8-ab9e-4092-bb61-22ad142cf321"
+    },
+    {
+        "season": 3,
+        "episode": 13,
+        "title": "Pass the Parcel",
+        "description": "Lucky's Dad changes up the rules of Pass the Parcel.",
+        "disneyPlusId": "9ac8a4d8-1ab7-423f-8894-b249aa20e80c"
+    },
+    {
+        "season": 3,
+        "episode": 14,
+        "title": "Perfect",
+        "description": "Bluey wants her Father's Day card to be perfect.",
+        "disneyPlusId": "3ed68d5f-41ea-43d0-bf2a-b0a9c4929193"
+    },
+    {
+        "season": 3,
+        "episode": 15,
+        "title": "Explorers",
+        "description": "Jack pretends to be a sailor on his way home.",
+        "disneyPlusId": "f372a6f5-c34f-481a-b8d8-4167ccd43758"
+    },
+    {
+        "season": 3,
+        "episode": 16,
+        "title": "Phones",
+        "description": "Bluey and Bingo play restaurant with Grandad.",
+        "disneyPlusId": "be3c306f-3473-4192-a0a7-1720a18dd85b"
+    },
+    {
+        "season": 3,
+        "episode": 17,
+        "title": "Pavlova",
+        "description": "The kids play Café so Bingo can eat Pavlova.",
+        "disneyPlusId": "e7b2aef7-0701-4698-976f-de3c16ba98e6"
+    },
+    {
+        "season": 3,
+        "episode": 18,
+        "title": "Rain",
+        "description": "Bluey tracks mud into the house.",
+        "disneyPlusId": "856abce5-85b8-4225-8743-f59b815347df"
+    },
+    {
+        "season": 3,
+        "episode": 19,
+        "title": "Pizza Girls",
+        "description": "Bluey and Bingo make mud pizzas.",
+        "disneyPlusId": "f093eae7-7fbd-412c-b642-0382ec42d443"
+    },
+    {
+        "season": 3,
+        "episode": 20,
+        "title": "Driving",
+        "description": "Bluey and mum have five minutes to play \"Driving.\"",
+        "disneyPlusId": "187d5b73-fc83-424f-9df1-2415de91fce8"
+    },
+    {
+        "season": 3,
+        "episode": 21,
+        "title": "Tina",
+        "description": "Meet Bluey and Bingo's giant, invisible friend, Tina.",
+        "disneyPlusId": "b1371de8-49d5-42b7-8107-ddc5c4dd1136"
+    },
+    {
+        "season": 3,
+        "episode": 22,
+        "title": "Whale Watching",
+        "description": "Bluey promises her customer Bingo the best tour ever!",
+        "disneyPlusId": "99313188-a346-4ad7-9b5d-44977789e8cf"
+    },
+    {
+        "season": 3,
+        "episode": 23,
+        "title": "Faceytalk",
+        "description": "Bluey and Bingo video chat with Muffin and Socks",
+        "disneyPlusId": "3e06f8c4-0725-4ffd-a0e1-99d1aeea1516"
+    },
+    {
+        "season": 3,
+        "episode": 24,
+        "title": "Ragdoll",
+        "description": "Dad agrees to go for ice cream, but there's one catch!",
+        "disneyPlusId": "860e819b-5976-40cf-a492-09e8801c06fd"
+    },
+    {
+        "season": 3,
+        "episode": 25,
+        "title": "Fairytale",
+        "description": "Dad tells Bluey and Bingo a real-life fairy tale.",
+        "disneyPlusId": "401b92ff-d145-4129-9edb-c8970abe3106"
+    },
+    {
+        "season": 3,
+        "episode": 26,
+        "title": "Smoochy Kiss",
+        "description": "Bluey and Bingo want Dad all to themselves!",
+        "disneyPlusId": "297d8f44-2e0e-4f3b-9a45-20299a04c0cf"
+    },
+    {
+        "season": 3,
+        "episode": 27,
+        "title": "Family Meeting",
+        "description": "Dad is accused of \"fluffing\" in Bluey's face.",
+        "disneyPlusId": "782a438f-2ab0-4a76-a157-f2cb429042aa"
+    },
+    {
+        "season": 3,
+        "episode": 28,
+        "title": "Musical Statues",
+        "description": "Bluey and her family play musical statues.",
+        "disneyPlusId": "c530b259-50b6-48c4-9e08-d8249c020154"
+    },
+    {
+        "season": 3,
+        "episode": 29,
+        "title": "Stories",
+        "description": "Indy’s upset her model horse looks like a cow.",
+        "disneyPlusId": "3e48d6b3-c352-4933-81c1-f85154ca5ce7"
+    },
+    {
+        "season": 3,
+        "episode": 30,
+        "title": "Puppets",
+        "description": "Bluey and Bingo teach Unicorse good manners.",
+        "disneyPlusId": "5804f796-66da-490c-bf8f-a52ca2b2a208"
+    },
+    {
+        "season": 3,
+        "episode": 31,
+        "title": "Turtleboy",
+        "description": "Bingo finds a toy turtle at the playground.",
+        "disneyPlusId": "8eaaa0ad-0d59-4da7-ac5c-a5d17784c310"
+    },
+    {
+        "season": 3,
+        "episode": 32,
+        "title": "Onesies",
+        "description": "When Brandy visits, Bingo and Bluey get onesies.",
+        "disneyPlusId": "f9ec22b7-403a-491c-afb3-df28212586e1"
+    },
+    {
+        "season": 3,
+        "episode": 33,
+        "title": "Tradies",
+        "description": "Bluey and Bingo spy on two tradies in the backyard.",
+        "disneyPlusId": "76eb34ae-578c-4292-9785-397eeba9fe2a"
+    },
+    {
+        "season": 3,
+        "episode": 34,
+        "title": "Granny Mobile",
+        "description": "Muffin plays Grouchy Granny at a garage sale.",
+        "disneyPlusId": "abb4446c-52ef-4ff5-9757-3af6068423d8"
+    },
+    {
+        "season": 3,
+        "episode": 35,
+        "title": "Space",
+        "description": "Mackenzie, Jack and Rusty are playing astronauts!",
+        "disneyPlusId": "f38fc616-c515-413b-b291-e8ea52b830eb"
+    },
+    {
+        "season": 3,
+        "episode": 36,
+        "title": "Dirt",
+        "description": "Judo wants to play in the dirt with Bluey and Bingo.",
+        "disneyPlusId": "eceb4dad-8d93-4d59-95e1-87936e1f1609"
+    },
+    {
+        "season": 3,
+        "episode": 37,
+        "title": "The Decider",
+        "description": "The Heelers and Lucky’s family watch the game!",
+        "disneyPlusId": "060ed31b-e569-491a-b04f-137694eafca2"
+    },
+    {
+        "season": 3,
+        "episode": 38,
+        "title": "Cubby",
+        "description": "Bluey and Bingo build a very special cubby.",
+        "disneyPlusId": "2a6a4caf-d394-4c42-b481-5f9f2b9e9117"
+    },
+    {
+        "season": 3,
+        "episode": 39,
+        "title": "Exercise",
+        "description": "Bingo pretends to work for Bluey while Dad exercises.",
+        "disneyPlusId": "3cb91024-2d18-448d-9baf-e8f1dce42f51"
+    },
+    {
+        "season": 3,
+        "episode": 40,
+        "title": "Relax",
+        "description": "Bluey and Bingo explore their hotel room on holiday.",
+        "disneyPlusId": "95c99845-b5a5-4a4d-aaa8-58da4ef10d92"
+    },
+    {
+        "season": 3,
+        "episode": 41,
+        "title": "Stickbird",
+        "description": "Bingo and Dad find a stick shaped like a bird’s head.",
+        "disneyPlusId": "2f3b5a4b-9654-4012-ba0e-0502e06ed19a"
+    },
+    {
+        "season": 3,
+        "episode": 42,
+        "title": "Show and Tell",
+        "description": "Bluey asks why Dad’s always bossing her around!",
+        "disneyPlusId": "ce803bf6-1da7-4d01-93a4-6cc574e483d5"
+    },
+    {
+        "season": 3,
+        "episode": 43,
+        "title": "Dragon",
+        "description": "Bluey asks Dad to help her draw a dragon.",
+        "disneyPlusId": "394a153c-bda8-4e81-b56a-57289a8de9a2"
+    },
+    {
+        "season": 3,
+        "episode": 44,
+        "title": "Wild Girls",
+        "description": "Coco wants to play a game but Chloe has other plans.",
+        "disneyPlusId": "779036af-d461-4b8d-9d0d-8b60c4f4e5dc"
+    },
+    {
+        "season": 3,
+        "episode": 45,
+        "title": "TV Shop",
+        "description": "Bluey and Bingo play with the CCTV screens.",
+        "disneyPlusId": "05bfd6a2-b737-4ab0-9c75-1f9b52818f1a"
+    },
+    {
+        "season": 3,
+        "episode": 46,
+        "title": "Slide",
+        "description": "Bingo and Lila play on their new waterslide.",
+        "disneyPlusId": "66a29c40-2a55-403d-825c-b688a5891b62"
+    },
+    {
+        "season": 3,
+        "episode": 47,
+        "title": "Cricket",
+        "description": "During a game of cricket, the dads struggle to win.",
+        "disneyPlusId": "da2f80cf-b4f6-4d28-8ab6-249e93842dd8"
+    },
+    {
+        "season": 3,
+        "episode": 48,
+        "title": "Ghostbasket",
+        "description": "A brand new Bluey episode.",
+        "disneyPlusId": "6ce171b9-9346-4571-8849-008d2efddb34"
+    },
+    {
+        "season": 3,
+        "episode": 49,
+        "title": "The Sign",
+        "description": "A special Bluey episode that is 28 minutes.",
+        "disneyPlusId": "c6cf9c7c-4d84-4855-8790-689e171d96b0"
+    },
+    {
+        "season": 3,
+        "episode": 50,
+        "title": "Surprise",
+        "description": "A brand new Bluey episode.",
+        "disneyPlusId": "e845fc23-5f58-41a3-9a48-83badc186946"
+    }
 ]

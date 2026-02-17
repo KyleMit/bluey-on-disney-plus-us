@@ -27,10 +27,10 @@ title: Bluey Episodes
 
     <div id="episodes-list">
       {% for episode in episodes %}
-      <div class="episode" data-title="{{ episode.title }}">
+      <a href="https://www.disneyplus.com/play/{{ episode.disneyPlusId }}" class="episode" data-title="{{ episode.title }}" target="_blank" rel="noopener">
         <span class="episode-number">S{{ episode.season }} E{{ episode.episode }}</span>
         <span class="episode-title">{{ episode.title }}</span>
-      </div>
+      </a>
       {% endfor %}
     </div>
   </div>
